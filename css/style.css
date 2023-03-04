@@ -1,0 +1,766 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  font-family: "Lato";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  max-width: 1600px;
+}
+header {
+  background: url(../images/bg.jpg) no-repeat center center/cover;
+  height: 800px;
+  width: 100%;
+  padding: 60px 200px 69px 200px;
+}
+.menu-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu__link {
+  text-decoration: none;
+  color: #575361;
+  font-weight: 500;
+}
+
+nav {
+  margin: auto;
+  width: 620px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+/* New Genereation */
+
+.new-gen {
+  padding: 50px 0 130px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f8f6;
+}
+.icon {
+  display: block;
+  margin: auto;
+}
+.h2 {
+  width: 1045px;
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 28px 0;
+  color: rgb(84, 84, 84);
+  letter-spacing: 2px;
+}
+.gallery-main-p {
+  width: 1045px;
+  line-height: 2.2;
+  text-align: center;
+  color: gray;
+}
+
+/* Gallery */
+
+.gallery {
+  width: 100%;
+}
+.gallery .first-row {
+  display: flex;
+  height: 100%;
+  margin-bottom: -3px;
+}
+.fw-left-part {
+  position: relative;
+}
+.bg-photo {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+.logo {
+  position: absolute;
+  left: 45%;
+  top: 40%;
+}
+.logo1 {
+  position: absolute;
+  left: 10%;
+  top: 42%;
+}
+.fw-right-part {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.fw-rp-top {
+  width: 100%;
+  padding: 70px 50px;
+}
+.h2-gallery {
+  width: 100%;
+}
+.gallery-p {
+  margin: auto;
+  width: 80%;
+  font-size: 14px;
+  line-height: 1.8;
+  color: rgb(157, 157, 157);
+}
+.row {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.middle-part {
+  width: 37.5%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* AOD */
+
+.aod {
+  width: 100%;
+  font-weight: bold;
+  padding: 126px 0 180px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.span1 {
+  text-transform: capitalize;
+}
+.span2 {
+  text-transform: lowercase;
+}
+.span3 {
+  color: rgb(185, 185, 185);
+  text-transform: lowercase;
+}
+.aod-p {
+  color: rgb(157, 157, 157);
+  line-height: 1.5;
+  font-style: italic;
+}
+
+/* Bike Gallery */
+
+.bike-photos-gallery {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: 265px;
+}
+.bike-photos-gallery img {
+  width: 100%;
+  height: 100%;
+}
+.one {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+.two {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+.three {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+.four {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+.five {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.six {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.seven {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+.eight {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+/* Discover button */
+
+.discover-the-shop {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-color: #282e35;
+}
+.discover {
+  padding: 15px 40px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid rgb(160, 160, 160);
+  width: 280px;
+  margin: auto;
+  font-size: 14px;
+}
+
+/* Form */
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 470px;
+  text-align: center;
+  justify-content: center;
+}
+.logo-p p {
+  color: rgb(157, 157, 157);
+  padding: 30px 0;
+}
+input {
+  padding: 15px 60px 15px 20px;
+  text-align: left;
+  border: 1px solid rgb(198, 198, 198);
+}
+input::placeholder {
+  color: rgb(198, 198, 198);
+}
+.input a {
+  padding: 15px 30px;
+  color: rgb(243, 243, 243);
+  background-color: #63c39e;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* Footer */
+
+footer {
+  width: 100%;
+  display: flex;
+  height: 250px;
+  align-items: center;
+  background-color: #f7f8f6;
+  justify-content: space-between;
+  padding: 0 220px;
+}
+.left-ft-part p:nth-child(1) {
+  font-size: 16px;
+  color: #5f5f5f;
+}
+.ft-p {
+  font-size: 13px;
+  color: grey;
+  font-style: italic;
+}
+.left-ft-part p:nth-child(2) {
+  padding: 5px 0;
+}
+.right-ft-part {
+  display: flex;
+  align-items: center;
+}
+.middle-ft-part img {
+  padding: 0 5px;
+}
+.right-ft-part p {
+  font-size: 14px;
+  color: #999999;
+  width: 110px;
+}
+
+/* MEDIA 1024 */
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    max-width: 1024px;
+  }
+  header {
+    width: 100%;
+    background-size: 1024px;
+    height: 575px;
+    padding: 60px 50px 69px 50px;
+  }
+
+  /* New Genereation */
+
+  .new-gen {
+    padding: 50px 150px 50px 150px;
+    width: 100%;
+  }
+  .gallery-main-p {
+    width: 100%;
+  }
+
+  /* Gallery */
+
+  .gallery {
+    width: 100%;
+  }
+  .fw-rp-top {
+    width: 100%;
+    padding: 50px 30px;
+  }
+  .gallery-p {
+    width: 100%;
+  }
+
+  /* AOD */
+
+  .aod {
+    padding: 50px 150px;
+  }
+
+  /* Bike Gallery */
+
+  .bike-photos-gallery {
+    grid-auto-rows: 225px;
+  }
+
+  /* Discover button */
+
+  .discover-the-shop {
+    height: 200px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #282e35;
+  }
+  .discover {
+    padding: 15px 40px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid rgb(160, 160, 160);
+    width: 280px;
+    margin: auto;
+    font-size: 14px;
+  }
+
+  /* Form */
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    height: 470px;
+    text-align: center;
+    justify-content: center;
+  }
+  .logo-p p {
+    color: rgb(157, 157, 157);
+    padding: 30px 0;
+  }
+  input {
+    padding: 15px 60px 15px 20px;
+    text-align: left;
+    border: 1px solid rgb(198, 198, 198);
+  }
+  input::placeholder {
+    color: rgb(198, 198, 198);
+  }
+  .input a {
+    padding: 15px 30px;
+    color: rgb(243, 243, 243);
+    background-color: #63c39e;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  /* Footer */
+
+  footer {
+    display: flex;
+    height: 250px;
+    align-items: center;
+    background-color: #f7f8f6;
+    justify-content: space-between;
+    padding: 0 220px;
+  }
+  .left-ft-part p:nth-child(1) {
+    font-size: 16px;
+    color: #5f5f5f;
+  }
+  .ft-p {
+    font-size: 13px;
+    color: grey;
+    font-style: italic;
+  }
+  .left-ft-part p:nth-child(2) {
+    padding: 5px 0;
+  }
+  .right-ft-part {
+    display: flex;
+    align-items: center;
+  }
+  .middle-ft-part img {
+    padding: 0 5px;
+  }
+  .right-ft-part p {
+    font-size: 14px;
+    color: #999999;
+    width: 110px;
+  }
+}
+
+/* MEDIA 760 */
+
+@media screen and (max-width: 760px) {
+  .wrapper {
+    max-width: 760px;
+  }
+  header {
+    width: 100%;
+    background-size: 1024px;
+    height: 575px;
+    padding: 60px 0 69px 0;
+  }
+
+  /* New Genereation */
+
+  .new-gen {
+    padding: 50px 100px 50px 100px;
+    width: 100%;
+  }
+  .new-gen h2 {
+    width: 100%;
+  }
+  .gallery-main-p {
+    width: 100%;
+    line-height: 1.4;
+  }
+
+  /* Gallery */
+
+  .gallery {
+    width: 100%;
+  }
+  .fw-rp-top {
+    width: 100%;
+    padding: 30px 30px;
+  }
+  .gallery-p {
+    width: 100%;
+    line-height: 1.2;
+  }
+  .fw-right-part {
+    width: 70%;
+  }
+  .row .middle-part {
+    width: 60%;
+  }
+  .logo1 {
+    position: absolute;
+    left: 5%;
+    top: 42%;
+  }
+
+  /* AOD */
+
+  .aod {
+    padding: 50px 150px;
+  }
+  .aod h2 {
+    width: 100%;
+  }
+
+  /* Bike Gallery */
+
+  .bike-photos-gallery {
+    grid-auto-rows: 150px;
+  }
+
+  /* Discover button */
+
+  .discover-the-shop {
+    height: 200px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #282e35;
+  }
+  .discover {
+    padding: 15px 40px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid rgb(160, 160, 160);
+    width: 280px;
+    margin: auto;
+    font-size: 14px;
+  }
+
+  /* Form */
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    height: 470px;
+    text-align: center;
+    justify-content: center;
+  }
+  .logo-p p {
+    color: rgb(157, 157, 157);
+    padding: 30px 0;
+    width: 100%;
+  }
+  input {
+    padding: 15px 60px 15px 20px;
+    text-align: left;
+    border: 1px solid rgb(198, 198, 198);
+  }
+  input::placeholder {
+    color: rgb(198, 198, 198);
+  }
+  .input a {
+    padding: 15px 30px;
+    color: rgb(243, 243, 243);
+    background-color: #63c39e;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  /* Footer */
+
+  footer {
+    display: flex;
+    height: 250px;
+    align-items: center;
+    background-color: #f7f8f6;
+    justify-content: space-between;
+    padding: 0 50px;
+  }
+  .left-ft-part p:nth-child(1) {
+    font-size: 16px;
+    color: #5f5f5f;
+  }
+  .ft-p {
+    font-size: 13px;
+    color: grey;
+    font-style: italic;
+  }
+  .left-ft-part p:nth-child(2) {
+    padding: 5px 0;
+  }
+  .right-ft-part {
+    display: flex;
+    align-items: center;
+  }
+  .middle-ft-part img {
+    padding: 0 5px;
+  }
+  .right-ft-part p {
+    font-size: 14px;
+    color: #999999;
+    width: 110px;
+  }
+}
+
+/* MEDIA 428 */
+
+@media screen and (max-width: 428px) {
+  .wrapper {
+    max-width: 428px;
+    border: 1px solid orangered;
+  }
+  header {
+    width: 100%;
+    background-size: 650px;
+    height: 330px;
+    padding: 0;
+  }
+  nav {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0;
+    background-color: rgba(176, 176, 176, 0.1);
+    border-bottom: 1px solid rgb(203, 203, 203);
+  }
+  nav li {
+    margin: 0 12px;
+  }
+  .menu__link {
+    font-weight: 700;
+  }
+  .menu-list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* New Genereation */
+
+  .new-gen {
+    padding: 40px;
+    width: 100%;
+  }
+  .new-gen h2 {
+    width: 100%;
+  }
+  .gallery-main-p {
+    width: 100%;
+    line-height: 1.4;
+    font-size: 16px;
+  }
+
+  /* Gallery */
+
+  .gallery {
+    width: 100%;
+  }
+  .fw-rp-top {
+    width: 100%;
+    padding: 15px 10px;
+  }
+  .gallery-p {
+    width: 100%;
+    line-height: 1.2;
+    height: auto;
+  }
+  .fw-right-part {
+    width: 100%;
+  }
+  .bg-photo {
+    object-position: 24% 50%;
+  }
+  .row .middle-part {
+    width: 60%;
+  }
+  .logo {
+    position: absolute;
+    left: 35%;
+    top: 40%;
+  }
+  .layer12-logo {
+    left: 20%;
+  }
+  .logo1 {
+    position: absolute;
+    left: 5%;
+    top: 42%;
+    display: none;
+  }
+  .gallery .first-row {
+    height: 500px;
+  }
+  .row .middle-part {
+    width: 100%;
+  }
+  .row {
+    height: 550px;
+  }
+
+  /* AOD */
+
+  .aod {
+    padding: 50px;
+  }
+
+  /* Bike Gallery */
+
+  .bike-photos-gallery {
+    grid-auto-rows: 100px;
+  }
+
+  /* Discover button */
+
+  .discover-the-shop {
+    height: 200px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #282e35;
+  }
+  .discover {
+    padding: 15px 40px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid rgb(160, 160, 160);
+    width: 280px;
+    margin: auto;
+    font-size: 14px;
+  }
+
+  /* Form */
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    height: 470px;
+    text-align: center;
+    justify-content: center;
+  }
+  .logo-p p {
+    color: rgb(157, 157, 157);
+    padding: 30px 0;
+  }
+  input {
+    padding: 15px 60px 15px 20px;
+    text-align: left;
+    border: 1px solid rgb(198, 198, 198);
+  }
+  input::placeholder {
+    color: rgb(198, 198, 198);
+  }
+  .input a {
+    padding: 15px 30px;
+    color: rgb(243, 243, 243);
+    background-color: #63c39e;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  /* Footer */
+
+  footer {
+    display: flex;
+    height: 300px;
+    align-items: center;
+    background-color: #f7f8f6;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 10px;
+    text-align: center;
+  }
+  .left-ft-part p:nth-child(1) {
+    font-size: 16px;
+    color: #5f5f5f;
+  }
+  .ft-p {
+    font-size: 13px;
+    color: grey;
+    font-style: italic;
+  }
+  .left-ft-part p:nth-child(2) {
+    padding: 5px 0;
+  }
+  .right-ft-part {
+    display: flex;
+    align-items: center;
+  }
+  .middle-ft-part img {
+    padding: 0 2px;
+  }
+  .right-ft-part p {
+    font-size: 14px;
+    color: #999999;
+    width: 110px;
+  }
+}
